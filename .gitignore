@@ -1,0 +1,6 @@
+*
+!*.sch
+!*.brd
+!*.ncd
+!*.cam
+!.gitignore
