@@ -363,6 +363,10 @@ design rules under a new name.</description>
 <attribute name="NAME" x="27.94" y="20.32" size="1.778" layer="25" rot="R180" align="center"/>
 <attribute name="VALUE" x="27.94" y="40.64" size="1.778" layer="27" rot="R180" align="center"/>
 </element>
+<element name="LAN1" library="Robocon-Connector" package="996-A2-1188A2" value="996-A2-1188A2" x="12.7" y="-10.16" smashed="yes">
+<attribute name="NAME" x="2.54" y="-8.89" size="1.778" layer="25" rot="R90" align="center"/>
+<attribute name="VALUE" x="22.86" y="-8.89" size="1.778" layer="27" rot="R90" align="center"/>
+</element>
 </elements>
 <signals>
 <signal name="VCC-1">
