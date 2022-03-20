@@ -4812,31 +4812,31 @@ Author : Masujima Daiki&lt;p&gt;
 <attribute name="VALUE" x="218.44" y="86.36" size="1.778" layer="96"/>
 </instance>
 <instance part="VCC-12" gate="G$1" x="256.54" y="86.36" smashed="yes" rot="R90">
-<attribute name="VALUE" x="251.46" y="82.55" size="1.778" layer="96" rot="R90"/>
+<attribute name="VALUE" x="259.08" y="86.868" size="1.778" layer="96"/>
 </instance>
 <instance part="VCC-13" gate="G$1" x="256.54" y="55.88" smashed="yes" rot="R90">
-<attribute name="VALUE" x="251.46" y="52.07" size="1.778" layer="96" rot="R90"/>
+<attribute name="VALUE" x="259.08" y="56.388" size="1.778" layer="96"/>
 </instance>
 <instance part="VCC-14" gate="G$1" x="256.54" y="25.4" smashed="yes" rot="R90">
-<attribute name="VALUE" x="251.46" y="21.59" size="1.778" layer="96" rot="R90"/>
+<attribute name="VALUE" x="259.08" y="25.908" size="1.778" layer="96"/>
 </instance>
 <instance part="VCC-15" gate="G$1" x="256.54" y="-5.08" smashed="yes" rot="R90">
-<attribute name="VALUE" x="251.46" y="-8.89" size="1.778" layer="96" rot="R90"/>
+<attribute name="VALUE" x="259.08" y="-4.572" size="1.778" layer="96"/>
 </instance>
 <instance part="GND7" gate="1" x="218.44" y="83.82" smashed="yes" rot="R270">
 <attribute name="VALUE" x="220.98" y="83.82" size="1.778" layer="96"/>
 </instance>
 <instance part="GND12" gate="1" x="254" y="78.74" smashed="yes" rot="R270">
-<attribute name="VALUE" x="250.19" y="81.28" size="1.778" layer="96" rot="R270"/>
+<attribute name="VALUE" x="258.826" y="76.708" size="1.778" layer="96"/>
 </instance>
 <instance part="GND13" gate="1" x="254" y="48.26" smashed="yes" rot="R270">
-<attribute name="VALUE" x="250.19" y="50.8" size="1.778" layer="96" rot="R270"/>
+<attribute name="VALUE" x="258.826" y="46.228" size="1.778" layer="96"/>
 </instance>
 <instance part="GND14" gate="1" x="254" y="17.78" smashed="yes" rot="R270">
-<attribute name="VALUE" x="250.19" y="20.32" size="1.778" layer="96" rot="R270"/>
+<attribute name="VALUE" x="258.826" y="15.748" size="1.778" layer="96"/>
 </instance>
 <instance part="GND15" gate="1" x="254" y="-12.7" smashed="yes" rot="R270">
-<attribute name="VALUE" x="250.19" y="-10.16" size="1.778" layer="96" rot="R270"/>
+<attribute name="VALUE" x="258.826" y="-14.732" size="1.778" layer="96"/>
 </instance>
 <instance part="GND16" gate="1" x="358.14" y="76.2" smashed="yes" rot="R270">
 <attribute name="VALUE" x="360.68" y="76.454" size="1.778" layer="96"/>
@@ -5034,17 +5034,6 @@ Author : Masujima Daiki&lt;p&gt;
 <junction x="181.61" y="-13.97"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="VSS"/>
-<wire x1="63.5" y1="24.13" x2="48.26" y2="24.13" width="0.1524" layer="91"/>
-<wire x1="48.26" y1="24.13" x2="48.26" y2="26.67" width="0.1524" layer="91"/>
-<wire x1="48.26" y1="26.67" x2="39.37" y2="26.67" width="0.1524" layer="91"/>
-<pinref part="C6" gate="G$1" pin="P$1"/>
-<wire x1="39.37" y1="25.4" x2="39.37" y2="26.67" width="0.1524" layer="91"/>
-<junction x="39.37" y="26.67"/>
-<pinref part="GND6" gate="1" pin="GND"/>
-<wire x1="39.37" y1="26.67" x2="35.56" y2="26.67" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="C7" gate="G$1" pin="P$2"/>
 <wire x1="39.37" y1="-7.62" x2="39.37" y2="-8.89" width="0.1524" layer="91"/>
 <junction x="39.37" y="-8.89"/>
@@ -5156,6 +5145,17 @@ Author : Masujima Daiki&lt;p&gt;
 <pinref part="GND26" gate="1" pin="GND"/>
 <wire x1="316.23" y1="33.02" x2="316.23" y2="30.48" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="VSS"/>
+<wire x1="63.5" y1="24.13" x2="47.498" y2="24.13" width="0.1524" layer="91"/>
+<wire x1="47.498" y1="24.13" x2="47.498" y2="26.67" width="0.1524" layer="91"/>
+<pinref part="GND6" gate="1" pin="GND"/>
+<wire x1="47.498" y1="26.67" x2="39.37" y2="26.67" width="0.1524" layer="91"/>
+<pinref part="C6" gate="G$1" pin="P$1"/>
+<wire x1="39.37" y1="26.67" x2="35.56" y2="26.67" width="0.1524" layer="91"/>
+<wire x1="39.37" y1="25.4" x2="39.37" y2="26.67" width="0.1524" layer="91"/>
+<junction x="39.37" y="26.67"/>
+</segment>
 </net>
 <net name="VCC-1" class="0">
 <segment>
@@ -5194,17 +5194,6 @@ Author : Masujima Daiki&lt;p&gt;
 <pinref part="VCC-4" gate="G$1" pin="VCC-1"/>
 <wire x1="181.61" y1="-21.59" x2="190.5" y2="-21.59" width="0.1524" layer="91"/>
 <junction x="181.61" y="-21.59"/>
-</segment>
-<segment>
-<pinref part="U$1" gate="G$1" pin="VDD"/>
-<wire x1="63.5" y1="21.59" x2="48.26" y2="21.59" width="0.1524" layer="91"/>
-<wire x1="48.26" y1="21.59" x2="48.26" y2="19.05" width="0.1524" layer="91"/>
-<wire x1="48.26" y1="19.05" x2="39.37" y2="19.05" width="0.1524" layer="91"/>
-<pinref part="C6" gate="G$1" pin="P$2"/>
-<wire x1="39.37" y1="20.32" x2="39.37" y2="19.05" width="0.1524" layer="91"/>
-<junction x="39.37" y="19.05"/>
-<pinref part="VCC-5" gate="G$1" pin="VCC-1"/>
-<wire x1="39.37" y1="19.05" x2="35.56" y2="19.05" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="SVDD"/>
@@ -5263,6 +5252,17 @@ Author : Masujima Daiki&lt;p&gt;
 <pinref part="VCC-11" gate="G$1" pin="VCC-1"/>
 <pinref part="LAN4" gate="G$1" pin="P$1"/>
 <wire x1="218.44" y1="-5.08" x2="236.22" y2="-5.08" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="VDD"/>
+<wire x1="63.5" y1="21.59" x2="47.498" y2="21.59" width="0.1524" layer="91"/>
+<wire x1="47.498" y1="21.59" x2="47.498" y2="19.05" width="0.1524" layer="91"/>
+<pinref part="VCC-5" gate="G$1" pin="VCC-1"/>
+<wire x1="47.498" y1="19.05" x2="39.37" y2="19.05" width="0.1524" layer="91"/>
+<pinref part="C6" gate="G$1" pin="P$2"/>
+<wire x1="39.37" y1="19.05" x2="35.56" y2="19.05" width="0.1524" layer="91"/>
+<wire x1="39.37" y1="20.32" x2="39.37" y2="19.05" width="0.1524" layer="91"/>
+<junction x="39.37" y="19.05"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -5333,6 +5333,11 @@ Author : Masujima Daiki&lt;p&gt;
 <wire x1="347.98" y1="7.62" x2="345.44" y2="7.62" width="0.1524" layer="91"/>
 <label x="345.44" y="7.62" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="SOSCI/RC13"/>
+<wire x1="157.48" y1="1.27" x2="161.29" y2="1.27" width="0.1524" layer="91"/>
+<label x="161.29" y="1.27" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="N$5" class="0">
 <segment>
@@ -5354,12 +5359,22 @@ Author : Masujima Daiki&lt;p&gt;
 <wire x1="347.98" y1="-12.7" x2="345.44" y2="-12.7" width="0.1524" layer="91"/>
 <label x="345.44" y="-12.7" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="PMA11/CN30/RB12/AN12"/>
+<wire x1="63.5" y1="-21.59" x2="58.166" y2="-21.59" width="0.1524" layer="91"/>
+<label x="58.166" y="-21.59" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="LED2" class="0">
 <segment>
 <pinref part="R4" gate="G$1" pin="P$2"/>
 <wire x1="347.98" y1="-2.54" x2="345.44" y2="-2.54" width="0.1524" layer="91"/>
 <label x="345.44" y="-2.54" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="PMA10/CN31/RB13/AN13"/>
+<wire x1="63.5" y1="-24.13" x2="58.166" y2="-24.13" width="0.1524" layer="91"/>
+<label x="58.166" y="-24.13" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="+5V" class="0">
@@ -5763,7 +5778,7 @@ Author : Masujima Daiki&lt;p&gt;
 <segment>
 <pinref part="U$1" gate="G$1" pin="RP11/VCMPST3/CN49/RD0/AN43"/>
 <wire x1="157.48" y1="-1.27" x2="161.29" y2="-1.27" width="0.1524" layer="91"/>
-<label x="161.544" y="-1.27" size="1.27" layer="95" xref="yes"/>
+<label x="161.29" y="-1.27" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="BUZZER" class="0">
@@ -5787,7 +5802,7 @@ Author : Masujima Daiki&lt;p&gt;
 <segment>
 <pinref part="U$1" gate="G$1" pin="RP4/SDA1/CN54/RD9/AN24"/>
 <wire x1="157.48" y1="-8.89" x2="161.036" y2="-8.89" width="0.1524" layer="91"/>
-<label x="161.29" y="-8.89" size="1.27" layer="95" xref="yes"/>
+<label x="161.036" y="-8.89" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="U2TX" class="0">
