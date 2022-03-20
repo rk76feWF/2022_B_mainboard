@@ -5405,12 +5405,22 @@ Author : Masujima Daiki&lt;p&gt;
 <wire x1="236.22" y1="81.28" x2="226.06" y2="81.28" width="0.1524" layer="91"/>
 <label x="226.06" y="81.28" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="RP6/LCDBIAS3/CN24/RB6/PGEC2/AN6"/>
+<wire x1="63.5" y1="3.81" x2="58.42" y2="3.81" width="0.1524" layer="91"/>
+<label x="58.42" y="3.81" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="M1S2" class="0">
 <segment>
 <pinref part="LAN1" gate="G$1" pin="P$4"/>
 <wire x1="236.22" y1="78.74" x2="226.06" y2="78.74" width="0.1524" layer="91"/>
 <label x="226.06" y="78.74" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="RP7/CN25/RB7/PGED2/AN7"/>
+<wire x1="63.5" y1="1.27" x2="58.42" y2="1.27" width="0.1524" layer="91"/>
+<label x="58.42" y="1.27" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="M2S1" class="0">
@@ -5419,12 +5429,22 @@ Author : Masujima Daiki&lt;p&gt;
 <wire x1="236.22" y1="76.2" x2="226.06" y2="76.2" width="0.1524" layer="91"/>
 <label x="226.06" y="76.2" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="RP13/PMA7/CN4/RB2"/>
+<wire x1="63.5" y1="11.43" x2="59.69" y2="11.43" width="0.1524" layer="91"/>
+<label x="59.69" y="11.43" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="M2S2" class="0">
 <segment>
 <pinref part="LAN1" gate="G$1" pin="P$6"/>
 <wire x1="236.22" y1="73.66" x2="226.06" y2="73.66" width="0.1524" layer="91"/>
 <label x="226.06" y="73.66" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="RP28/USBOEN/CN6/RB4/PGED3/AN4"/>
+<wire x1="63.5" y1="16.51" x2="59.69" y2="16.51" width="0.1524" layer="91"/>
+<label x="59.69" y="16.51" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="M1PWM" class="0">
@@ -5433,12 +5453,22 @@ Author : Masujima Daiki&lt;p&gt;
 <wire x1="236.22" y1="71.12" x2="226.06" y2="71.12" width="0.1524" layer="91"/>
 <label x="226.06" y="71.12" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="RP18/CN7/RB5/PGEC3/AN5"/>
+<wire x1="63.5" y1="19.05" x2="59.69" y2="19.05" width="0.1524" layer="91"/>
+<label x="59.69" y="19.05" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="M2PWM" class="0">
 <segment>
 <pinref part="LAN1" gate="G$1" pin="P$8"/>
 <wire x1="236.22" y1="68.58" x2="226.06" y2="68.58" width="0.1524" layer="91"/>
 <label x="226.06" y="68.58" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="RP27/PMA2/CN11/RG9/AN49"/>
+<wire x1="63.5" y1="26.67" x2="59.69" y2="26.67" width="0.1524" layer="91"/>
+<label x="59.69" y="26.67" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="M3S2" class="0">
@@ -5719,9 +5749,9 @@ Author : Masujima Daiki&lt;p&gt;
 <label x="264.16" y="83.82" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="RP28/USBOEN/CN6/RB4/PGED3/AN4"/>
-<wire x1="63.5" y1="16.51" x2="59.436" y2="16.51" width="0.1524" layer="91"/>
-<label x="59.436" y="16.51" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="RP12/PMA14/CN56/RD11/AN42"/>
+<wire x1="157.48" y1="-3.81" x2="161.29" y2="-3.81" width="0.1524" layer="91"/>
+<label x="161.29" y="-3.81" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="U1RX" class="0">
@@ -5731,9 +5761,9 @@ Author : Masujima Daiki&lt;p&gt;
 <label x="264.16" y="81.28" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="RP13/PMA7/CN4/RB2"/>
-<wire x1="63.5" y1="11.43" x2="59.436" y2="11.43" width="0.1524" layer="91"/>
-<label x="59.436" y="11.43" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="RP11/VCMPST3/CN49/RD0/AN43"/>
+<wire x1="157.48" y1="-1.27" x2="161.29" y2="-1.27" width="0.1524" layer="91"/>
+<label x="161.544" y="-1.27" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="BUZZER" class="0">
@@ -5755,9 +5785,9 @@ Author : Masujima Daiki&lt;p&gt;
 <label x="264.16" y="50.8" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="RP18/CN7/RB5/PGEC3/AN5"/>
-<wire x1="63.5" y1="19.05" x2="59.436" y2="19.05" width="0.1524" layer="91"/>
-<label x="59.436" y="19.05" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="RP4/SDA1/CN54/RD9/AN24"/>
+<wire x1="157.48" y1="-8.89" x2="161.036" y2="-8.89" width="0.1524" layer="91"/>
+<label x="161.29" y="-8.89" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="U2TX" class="0">
@@ -5767,9 +5797,9 @@ Author : Masujima Daiki&lt;p&gt;
 <label x="264.16" y="53.34" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="RP27/PMA2/CN11/RG9/AN49"/>
-<wire x1="63.5" y1="26.67" x2="59.69" y2="26.67" width="0.1524" layer="91"/>
-<label x="59.69" y="26.67" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="RP2/PMA13/CN53/RD8/AN40"/>
+<wire x1="157.48" y1="-11.43" x2="161.036" y2="-11.43" width="0.1524" layer="91"/>
+<label x="161.036" y="-11.43" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="U3TX" class="0">
@@ -5869,6 +5899,10 @@ Author : Masujima Daiki&lt;p&gt;
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="113,1,88.138,105.115,J1,,,,,"/>
+<approved hash="113,1,24.4751,77.47,RESET,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
