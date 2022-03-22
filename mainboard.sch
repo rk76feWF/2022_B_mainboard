@@ -4567,6 +4567,55 @@ Author : Masujima Daiki&lt;p&gt;
 </deviceset>
 </devicesets>
 </library>
+<library name="frames" urn="urn:adsk.eagle:library:229">
+<description>&lt;b&gt;Frames for Sheet and Layout&lt;/b&gt;</description>
+<packages>
+</packages>
+<symbols>
+<symbol name="A3L-LOC" urn="urn:adsk.eagle:symbol:13881/1" library_version="1">
+<wire x1="288.29" y1="3.81" x2="342.265" y2="3.81" width="0.1016" layer="94"/>
+<wire x1="342.265" y1="3.81" x2="373.38" y2="3.81" width="0.1016" layer="94"/>
+<wire x1="373.38" y1="3.81" x2="383.54" y2="3.81" width="0.1016" layer="94"/>
+<wire x1="383.54" y1="3.81" x2="383.54" y2="8.89" width="0.1016" layer="94"/>
+<wire x1="383.54" y1="8.89" x2="383.54" y2="13.97" width="0.1016" layer="94"/>
+<wire x1="383.54" y1="13.97" x2="383.54" y2="19.05" width="0.1016" layer="94"/>
+<wire x1="383.54" y1="19.05" x2="383.54" y2="24.13" width="0.1016" layer="94"/>
+<wire x1="288.29" y1="3.81" x2="288.29" y2="24.13" width="0.1016" layer="94"/>
+<wire x1="288.29" y1="24.13" x2="342.265" y2="24.13" width="0.1016" layer="94"/>
+<wire x1="342.265" y1="24.13" x2="383.54" y2="24.13" width="0.1016" layer="94"/>
+<wire x1="373.38" y1="3.81" x2="373.38" y2="8.89" width="0.1016" layer="94"/>
+<wire x1="373.38" y1="8.89" x2="383.54" y2="8.89" width="0.1016" layer="94"/>
+<wire x1="373.38" y1="8.89" x2="342.265" y2="8.89" width="0.1016" layer="94"/>
+<wire x1="342.265" y1="8.89" x2="342.265" y2="3.81" width="0.1016" layer="94"/>
+<wire x1="342.265" y1="8.89" x2="342.265" y2="13.97" width="0.1016" layer="94"/>
+<wire x1="342.265" y1="13.97" x2="383.54" y2="13.97" width="0.1016" layer="94"/>
+<wire x1="342.265" y1="13.97" x2="342.265" y2="19.05" width="0.1016" layer="94"/>
+<wire x1="342.265" y1="19.05" x2="383.54" y2="19.05" width="0.1016" layer="94"/>
+<wire x1="342.265" y1="19.05" x2="342.265" y2="24.13" width="0.1016" layer="94"/>
+<text x="344.17" y="15.24" size="2.54" layer="94">&gt;DRAWING_NAME</text>
+<text x="344.17" y="10.16" size="2.286" layer="94">&gt;LAST_DATE_TIME</text>
+<text x="357.505" y="5.08" size="2.54" layer="94">&gt;SHEET</text>
+<text x="343.916" y="4.953" size="2.54" layer="94">Sheet:</text>
+<frame x1="0" y1="0" x2="387.35" y2="260.35" columns="8" rows="5" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="A3L-LOC" urn="urn:adsk.eagle:component:13942/1" prefix="FRAME" uservalue="yes" library_version="1">
+<description>&lt;b&gt;FRAME&lt;/b&gt;&lt;p&gt;
+DIN A3, landscape with location and doc. field</description>
+<gates>
+<gate name="G$1" symbol="A3L-LOC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -4664,6 +4713,7 @@ Author : Masujima Daiki&lt;p&gt;
 <part name="R13" library="Robocon-RLC" deviceset="R" device="1/10W" value="3.3k"/>
 <part name="GND25" library="Robocon-SupplySymbols" deviceset="GND-1" device=""/>
 <part name="GND26" library="Robocon-SupplySymbols" deviceset="GND-1" device=""/>
+<part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4844,38 +4894,38 @@ Author : Masujima Daiki&lt;p&gt;
 <instance part="GND17" gate="1" x="360.68" y="40.64" smashed="yes" rot="R270">
 <attribute name="VALUE" x="363.22" y="40.894" size="1.778" layer="96"/>
 </instance>
-<instance part="R3" gate="G$1" x="353.06" y="7.62" smashed="yes" rot="R180">
-<attribute name="NAME" x="348.234" y="11.557" size="1.778" layer="95"/>
-<attribute name="VALUE" x="348.234" y="9.271" size="1.778" layer="96"/>
+<instance part="R3" gate="G$1" x="347.98" y="5.08" smashed="yes" rot="R180">
+<attribute name="NAME" x="343.154" y="9.017" size="1.778" layer="95"/>
+<attribute name="VALUE" x="343.154" y="6.731" size="1.778" layer="96"/>
 </instance>
-<instance part="LED1" gate="G$1" x="362.712" y="7.62" smashed="yes" rot="R90">
-<attribute name="NAME" x="360.426" y="11.43" size="1.778" layer="95"/>
-<attribute name="VALUE" x="360.426" y="9.271" size="1.778" layer="96"/>
+<instance part="LED1" gate="G$1" x="357.632" y="5.08" smashed="yes" rot="R90">
+<attribute name="NAME" x="355.346" y="8.89" size="1.778" layer="95"/>
+<attribute name="VALUE" x="355.346" y="6.731" size="1.778" layer="96"/>
 </instance>
-<instance part="GND18" gate="1" x="373.38" y="7.62" smashed="yes" rot="R90">
-<attribute name="VALUE" x="375.412" y="6.604" size="1.778" layer="96"/>
+<instance part="GND18" gate="1" x="368.3" y="5.08" smashed="yes" rot="R90">
+<attribute name="VALUE" x="370.332" y="4.064" size="1.778" layer="96"/>
 </instance>
-<instance part="R4" gate="G$1" x="353.06" y="-2.54" smashed="yes" rot="R180">
-<attribute name="NAME" x="348.234" y="1.397" size="1.778" layer="95"/>
-<attribute name="VALUE" x="348.234" y="-0.889" size="1.778" layer="96"/>
+<instance part="R4" gate="G$1" x="347.98" y="-5.08" smashed="yes" rot="R180">
+<attribute name="NAME" x="343.154" y="-1.143" size="1.778" layer="95"/>
+<attribute name="VALUE" x="343.154" y="-3.429" size="1.778" layer="96"/>
 </instance>
-<instance part="LED2" gate="G$1" x="362.712" y="-2.54" smashed="yes" rot="R90">
-<attribute name="NAME" x="360.426" y="1.27" size="1.778" layer="95"/>
-<attribute name="VALUE" x="360.426" y="-0.889" size="1.778" layer="96"/>
+<instance part="LED2" gate="G$1" x="357.632" y="-5.08" smashed="yes" rot="R90">
+<attribute name="NAME" x="355.346" y="-1.27" size="1.778" layer="95"/>
+<attribute name="VALUE" x="355.346" y="-3.429" size="1.778" layer="96"/>
 </instance>
-<instance part="GND19" gate="1" x="373.38" y="-2.54" smashed="yes" rot="R90">
-<attribute name="VALUE" x="375.412" y="-3.556" size="1.778" layer="96"/>
+<instance part="GND19" gate="1" x="368.3" y="-5.08" smashed="yes" rot="R90">
+<attribute name="VALUE" x="370.332" y="-6.096" size="1.778" layer="96"/>
 </instance>
-<instance part="R5" gate="G$1" x="353.06" y="-12.7" smashed="yes" rot="R180">
-<attribute name="NAME" x="348.234" y="-8.763" size="1.778" layer="95"/>
-<attribute name="VALUE" x="348.234" y="-11.049" size="1.778" layer="96"/>
+<instance part="R5" gate="G$1" x="347.98" y="-15.24" smashed="yes" rot="R180">
+<attribute name="NAME" x="343.154" y="-11.303" size="1.778" layer="95"/>
+<attribute name="VALUE" x="343.154" y="-13.589" size="1.778" layer="96"/>
 </instance>
-<instance part="LED3" gate="G$1" x="362.712" y="-12.7" smashed="yes" rot="R90">
-<attribute name="NAME" x="360.426" y="-8.89" size="1.778" layer="95"/>
-<attribute name="VALUE" x="360.426" y="-11.049" size="1.778" layer="96"/>
+<instance part="LED3" gate="G$1" x="357.632" y="-15.24" smashed="yes" rot="R90">
+<attribute name="NAME" x="355.346" y="-11.43" size="1.778" layer="95"/>
+<attribute name="VALUE" x="355.346" y="-13.589" size="1.778" layer="96"/>
 </instance>
-<instance part="GND20" gate="1" x="373.38" y="-12.7" smashed="yes" rot="R90">
-<attribute name="VALUE" x="375.412" y="-13.716" size="1.778" layer="96"/>
+<instance part="GND20" gate="1" x="368.3" y="-15.24" smashed="yes" rot="R90">
+<attribute name="VALUE" x="370.332" y="-16.256" size="1.778" layer="96"/>
 </instance>
 <instance part="U$3" gate="G$1" x="292.1" y="83.82" smashed="yes" rot="R90">
 <attribute name="VALUE" x="294.386" y="84.074" size="1.778" layer="96"/>
@@ -4945,12 +4995,12 @@ Author : Masujima Daiki&lt;p&gt;
 <instance part="GND23" gate="1" x="179.578" y="24.13" smashed="yes" rot="R90">
 <attribute name="VALUE" x="181.356" y="23.114" size="1.778" layer="96"/>
 </instance>
-<instance part="SG1" gate="G$1" x="312.42" y="7.62" smashed="yes">
-<attribute name="NAME" x="309.372" y="16.51" size="1.778" layer="95"/>
-<attribute name="VALUE" x="309.372" y="13.97" size="1.778" layer="96"/>
+<instance part="SG1" gate="G$1" x="307.34" y="5.08" smashed="yes">
+<attribute name="NAME" x="304.292" y="13.97" size="1.778" layer="95"/>
+<attribute name="VALUE" x="304.292" y="11.43" size="1.778" layer="96"/>
 </instance>
-<instance part="GND24" gate="1" x="322.58" y="5.08" smashed="yes" rot="R90">
-<attribute name="VALUE" x="324.358" y="4.318" size="1.778" layer="96"/>
+<instance part="GND24" gate="1" x="317.5" y="2.54" smashed="yes" rot="R90">
+<attribute name="VALUE" x="319.278" y="1.778" size="1.778" layer="96"/>
 </instance>
 <instance part="R10" gate="G$1" x="306.07" y="45.72" smashed="yes" rot="R180">
 <attribute name="NAME" x="311.15" y="45.847" size="1.778" layer="95"/>
@@ -4973,6 +5023,11 @@ Author : Masujima Daiki&lt;p&gt;
 </instance>
 <instance part="GND26" gate="1" x="316.23" y="27.94" smashed="yes">
 <attribute name="VALUE" x="316.484" y="28.194" size="1.778" layer="96"/>
+</instance>
+<instance part="FRAME1" gate="G$1" x="7.62" y="-96.52" smashed="yes">
+<attribute name="DRAWING_NAME" x="351.79" y="-81.28" size="2.54" layer="94"/>
+<attribute name="LAST_DATE_TIME" x="351.79" y="-86.36" size="2.286" layer="94"/>
+<attribute name="SHEET" x="365.125" y="-91.44" size="2.54" layer="94"/>
 </instance>
 </instances>
 <busses>
@@ -5088,17 +5143,17 @@ Author : Masujima Daiki&lt;p&gt;
 <segment>
 <pinref part="LED1" gate="G$1" pin="C"/>
 <pinref part="GND18" gate="1" pin="GND"/>
-<wire x1="367.792" y1="7.62" x2="370.84" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="362.712" y1="5.08" x2="365.76" y2="5.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="LED2" gate="G$1" pin="C"/>
 <pinref part="GND19" gate="1" pin="GND"/>
-<wire x1="367.792" y1="-2.54" x2="370.84" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="362.712" y1="-5.08" x2="365.76" y2="-5.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="LED3" gate="G$1" pin="C"/>
 <pinref part="GND20" gate="1" pin="GND"/>
-<wire x1="367.792" y1="-12.7" x2="370.84" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="362.712" y1="-15.24" x2="365.76" y2="-15.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND9" gate="1" pin="GND"/>
@@ -5133,7 +5188,7 @@ Author : Masujima Daiki&lt;p&gt;
 <segment>
 <pinref part="SG1" gate="G$1" pin="2"/>
 <pinref part="GND24" gate="1" pin="GND"/>
-<wire x1="317.5" y1="5.08" x2="320.04" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="312.42" y1="2.54" x2="314.96" y2="2.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND25" gate="1" pin="GND"/>
@@ -5324,14 +5379,14 @@ Author : Masujima Daiki&lt;p&gt;
 <segment>
 <pinref part="R3" gate="G$1" pin="P$1"/>
 <pinref part="LED1" gate="G$1" pin="A"/>
-<wire x1="358.14" y1="7.62" x2="360.172" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="353.06" y1="5.08" x2="355.092" y2="5.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="LED1" class="0">
 <segment>
 <pinref part="R3" gate="G$1" pin="P$2"/>
-<wire x1="347.98" y1="7.62" x2="345.44" y2="7.62" width="0.1524" layer="91"/>
-<label x="345.44" y="7.62" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="342.9" y1="5.08" x2="340.36" y2="5.08" width="0.1524" layer="91"/>
+<label x="340.36" y="5.08" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="SOSCI/RC13"/>
@@ -5343,21 +5398,21 @@ Author : Masujima Daiki&lt;p&gt;
 <segment>
 <pinref part="R4" gate="G$1" pin="P$1"/>
 <pinref part="LED2" gate="G$1" pin="A"/>
-<wire x1="358.14" y1="-2.54" x2="360.172" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="353.06" y1="-5.08" x2="355.092" y2="-5.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$6" class="0">
 <segment>
 <pinref part="R5" gate="G$1" pin="P$1"/>
 <pinref part="LED3" gate="G$1" pin="A"/>
-<wire x1="358.14" y1="-12.7" x2="360.172" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="353.06" y1="-15.24" x2="355.092" y2="-15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="LED3" class="0">
 <segment>
 <pinref part="R5" gate="G$1" pin="P$2"/>
-<wire x1="347.98" y1="-12.7" x2="345.44" y2="-12.7" width="0.1524" layer="91"/>
-<label x="345.44" y="-12.7" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="342.9" y1="-15.24" x2="340.36" y2="-15.24" width="0.1524" layer="91"/>
+<label x="340.36" y="-15.24" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="PMA11/CN30/RB12/AN12"/>
@@ -5368,8 +5423,8 @@ Author : Masujima Daiki&lt;p&gt;
 <net name="LED2" class="0">
 <segment>
 <pinref part="R4" gate="G$1" pin="P$2"/>
-<wire x1="347.98" y1="-2.54" x2="345.44" y2="-2.54" width="0.1524" layer="91"/>
-<label x="345.44" y="-2.54" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="342.9" y1="-5.08" x2="340.36" y2="-5.08" width="0.1524" layer="91"/>
+<label x="340.36" y="-5.08" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="PMA10/CN31/RB13/AN13"/>
@@ -5789,8 +5844,8 @@ Author : Masujima Daiki&lt;p&gt;
 </segment>
 <segment>
 <pinref part="SG1" gate="G$1" pin="1"/>
-<wire x1="309.88" y1="5.08" x2="307.34" y2="5.08" width="0.1524" layer="91"/>
-<label x="307.34" y="5.08" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="304.8" y1="2.54" x2="302.26" y2="2.54" width="0.1524" layer="91"/>
+<label x="302.26" y="2.54" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="U2RX" class="0">
