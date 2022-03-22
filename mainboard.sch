@@ -5971,7 +5971,8 @@ DIN A3, landscape with location and doc. field</description>
 </sheets>
 <errors>
 <approved hash="113,1,88.138,105.115,J1,,,,,"/>
-<approved hash="113,1,24.4751,77.47,RESET,,,,,"/>
+<approved hash="113,1,24.4561,77.47,RESET,,,,,"/>
+<approved hash="113,1,201.191,33.551,FRAME1,,,,,"/>
 </errors>
 </schematic>
 </drawing>
