@@ -8,7 +8,7 @@
 </settings>
 <grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
 <layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
 <layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
@@ -23,7 +23,7 @@
 <layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
 <layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
 <layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
@@ -1289,11 +1289,11 @@ Author : Masujima Daiki&lt;p&gt;
 <wire x1="36.55" y1="25.75" x2="36" y2="25.2" width="0.25" layer="1"/>
 <wire x1="36" y1="25.2" x2="34.8" y2="25.2" width="0.25" layer="1"/>
 <wire x1="33.3524" y1="26.6476" x2="34.8" y2="25.2" width="0.25" layer="1"/>
-<wire x1="9.023" y1="29.577" x2="19.0561625" y2="29.577" width="0.25" layer="1"/>
-<wire x1="19.0561625" y1="29.577" x2="21.9855625" y2="26.6476" width="0.25" layer="1"/>
+<wire x1="9.023" y1="29.777" x2="18.8561625" y2="29.777" width="0.25" layer="1"/>
+<wire x1="18.8561625" y1="29.777" x2="21.9855625" y2="26.6476" width="0.25" layer="1"/>
 <wire x1="21.9855625" y1="26.6476" x2="33.3524" y2="26.6476" width="0.25" layer="1"/>
 <wire x1="15.11" y1="47.79" x2="15.11" y2="46.73" width="0.25" layer="1"/>
-<wire x1="7.69" y1="30.91" x2="9.023" y2="29.577" width="0.25" layer="1"/>
+<wire x1="7.89" y1="30.91" x2="9.023" y2="29.777" width="0.25" layer="1"/>
 <wire x1="12.3562" y1="48.6681" x2="14.2319" y2="48.6681" width="0.25" layer="1"/>
 <wire x1="14.2319" y1="48.6681" x2="15.11" y2="47.79" width="0.25" layer="1"/>
 <wire x1="12.3562" y1="48.6681" x2="10.6681" y2="48.6681" width="0.25" layer="1"/>
@@ -1303,7 +1303,7 @@ Author : Masujima Daiki&lt;p&gt;
 <wire x1="7.5" y1="37.3" x2="3.3" y2="37.3" width="0.25" layer="1"/>
 <wire x1="3.3" y1="37.3" x2="2.3" y2="36.3" width="0.25" layer="1"/>
 <wire x1="2.3" y1="31.6" x2="2.3" y2="36.3" width="0.25" layer="1"/>
-<wire x1="7.69" y1="30.91" x2="4.64" y2="30.91" width="0.25" layer="1"/>
+<wire x1="7.89" y1="30.91" x2="4.64" y2="30.91" width="0.25" layer="1"/>
 <wire x1="4.64" y1="30.91" x2="2.99" y2="30.91" width="0.25" layer="1"/>
 <wire x1="2.99" y1="30.91" x2="2.3" y2="31.6" width="0.25" layer="1"/>
 </signal>
